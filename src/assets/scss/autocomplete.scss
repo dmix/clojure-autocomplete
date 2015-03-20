@@ -4,9 +4,22 @@ $autocompleteWidth: $inputWidth + 21px;
 
 #search {
   margin-top:15px;
-  button {position:relative;top:-5px;margin-left:5px;padding:12px 20px;}
-  input {padding:7px 10px;font-size:1.2em;height:30px;width:$inputWidth;margin-bottom:10px;}
-  input.loading {background:#FFF url(/img/spinner.gif) no-repeat 95% 10px;}
+  button {
+    position:relative;
+    top:-5px;
+    margin-left:5px;
+    padding:12px 20px;
+  }
+  input {
+    padding:7px 10px;
+    font-size:1.2em;
+    height:30px;
+    width:$inputWidth;
+    margin-bottom:10px;
+  }
+  input.loading {
+    background:#FFF url(/img/spinner.gif) no-repeat 95% 10px;
+  }
 }
 
 #autocomplete {
